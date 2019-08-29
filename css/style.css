@@ -1,0 +1,19 @@
+.header{
+    background: black;
+    width: 100%;
+}
+.header ul{
+    list-style: none;
+    margin-top: 35px;
+    float: right;
+}
+.header li{
+    display: inline; 
+    text-decoration: none;
+    padding: 10px;
+    color: grey;
+    font-size: 18px;
+}
+.header a{
+    color: grey;
+}
