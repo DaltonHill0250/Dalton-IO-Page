@@ -1,3 +1,29 @@
+body{
+    background: #000;
+}
+h2{
+    margin: 0;     
+    color: #fff;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.intro{
+    background-image: url("../media/iopic.jpg");
+    text-align: center;
+}
+.intro h1{
+    font-family: "trebuchet ms", sans-serif;
+    color: #fff;
+    font-size: 60px;
+}
+.intro h2{
+    font-family: "trebuchet ms", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
 .header{
     background: black;
     width: 100%;
@@ -5,7 +31,8 @@
 .header ul{
     list-style: none;
     margin-top: 35px;
-    float: right;
+    /* float: right; */
+    text-align: center;
 }
 .header li{
     display: inline; 
@@ -15,5 +42,352 @@
     font-size: 18px;
 }
 .header a{
+    color: grey;
+}
+
+.about img{
+    width: 200px;
+    height: 250px;
+    margin-top: 50px;
+    border: black solid 2px;
+    border-radius: 215px;
+    margin-left: 200px;
+}
+.about {
+    background-image: url("../media/program.jpg");
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+.about h2{
+    padding-top: 20px;
+}
+.about a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
+}
+.bio{
+    background: #000;
+    text-align: center;
+    margin-left: 99px;
+    border-radius: 4px;
+    padding-right: 30px;
+}
+
+/* Projects */
+
+.projectsh1{
+    background: #000;
+    text-align: center;
+    border-bottom: #534B62 solid 5px;
+    margin-top: 60px;
+}
+.projectsh1 h2{
+    margin-top: -92px;
+}
+.projects{
+    background: black;
+    padding-top: 26px;
+}
+.projects img{
+    width: 200px;
+    height: 250px;
+    border: black solid 4px;
+    border-radius: 5px;
+    transition: transform .2s;
+    text-align: center;
+}
+.projects img:hover{
+    transform: scale(1.1);
+}
+.detroix{
+    /* height: auto; */
+    transition: all 2s ease-in-out;
+    text-align: center;
+}
+.detroix p{
+    /* visibility: hidden; */
+}
+.goodbye1{
+    width: 200px;
+    /* height: auto; */
+    visibility: visible;
+    text-align: center;
+}
+.goodbye1 p{
+    visibility: visible;
+}
+.goodbye1 a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
+}
+.venedor{
+    /* height: auto; */
+    transition: all 2s ease-in-out;
+    text-align: center;
+}
+.venedor p{
+    /* visibility: hidden; */
+}
+.goodbye2{
+    width: 200px;
+    /* height: auto; */
+    /* visibility: visible; */
+    text-align: center;
+}
+.goodbye2 p{
+    /* visibility: visible; */
+}
+.goodbye2 a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
+}
+.bloom{
+    /* height: auto; */
+    transition: all 2s ease-in-out;
+    text-align: center;
+}
+.bloom p{
+    /* visibility: hidden; */
+}
+.goodbye3{
+    width: 200px;
+    /* height: auto; */
+    visibility: visible;
+    text-align: center;
+}
+.goodbye3 p{
+    visibility: visible;
+}
+.goodbye3 a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
+}
+.iopage{
+    /* height: auto; */
+    transition: all 2s ease-in-out;
+    text-align: center;
+}
+.iopage p{
+    /* visibility: hidden; */
+}
+.goodbye4{
+    width: 200px;
+    /* height: auto; */
+    visibility: visible;
+    text-align: center;
+}
+.goodbye4 p{
+    visibility: visible;
+}
+.goodbye4 a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
+}
+
+/* Playground */
+
+.playgroundh1{
+    background: #000;
+    text-align: center;
+    border-bottom: #534B62 solid 5px;
+}
+.playgroundh1 h2{
+    margin-top: -92px;
+}
+.playground img{
+    width: 200px;
+    height: 250px;
+    border: black solid 4px;
+    border-radius: 5px;
+    transition: transform .2s;
+    text-align: center;
+}
+.playground img:hover{
+    transform: scale(1.1);
+}
+.playground{
+    background: black;
+    padding-top: 26px;
+}
+.position1{
+    transition: all 2s ease-in-out;
+    text-align: center;
+}
+.position1 p{
+    /* visibility: hidden; */
+}
+.hello1{
+    width: 200px;
+    height: auto;
+    visibility: visible;
+    text-align: center;
+}
+.hello1 p{
+    visibility: visible;
+}
+.hello1 a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
+}
+.position2{
+    height: auto;
+    transition: all 2s ease-in-out;
+    text-align: center;
+}
+.position2 p{
+    /* visibility: hidden; */
+}
+.hello2{
+    width: 200px;
+    height: auto;
+    visibility: visible;
+    text-align: center;
+}
+.hello2 p{
+    visibility: visible;
+}
+.hello2 a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
+}
+.Transformers{
+    height: auto;
+    transition: all 2s ease-in-out;
+    text-align: center;
+}
+.Transformers p{
+    /* visibility: hidden; */
+}
+.hello3{
+    width: 200px;
+    height: auto;
+    visibility: visible;
+    text-align: center;
+}
+.hello3 p{
+    visibility: visible;
+}
+.hello3 a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
+}
+.pizzap{
+    height: auto;
+    transition: all 2s ease-in-out;
+    text-align: center;
+}
+.pizzap p{
+    /* visibility: hidden; */
+}
+.hello4{
+    width: 200px;
+    height: auto;
+    visibility: visible;
+    text-align: center;
+}
+.hello4 p{
+    visibility: visible;
+}
+.hello4 a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
+}
+
+/* ISEF Carousel */
+
+.carousel1{
+    background: #534B62;
+}
+.carousel1 h2{
+    margin-top: -50px;
+}
+.carousel-inner img{
+    width: 520px;
+    height: 320px;
+}
+.item{
+    background: white;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 50px;
+}
+.bs-example{
+    margin: 20px;
+    height: 320px;
+}
+.carousel.carousel-fade .item {
+  opacity:0;
+  filter: alpha(opacity=0); /* ie fix */
+}
+.carousel.carousel-fade .active.item {
+    opacity:1;
+    filter: alpha(opacity=100); /* ie fix */
+}
+.isefp{
+    margin-right: 60px;
+}
+.isefp a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
+}
+.isefp ul{
+    list-style: none;
+    margin-top: 15px;
+}
+.isefp li{
+    display: inline;
+    margin-right: 10px;
+}
+/* footer */
+.footer{
+    background: black;
+    width: 100%;
+}
+.footer ul{
+    list-style: none;
+    margin-top: 35px;
+    float: right;
+}
+.footer li{
+    display: inline; 
+    text-decoration: none;
+    padding: 10px;
+    color: grey;
+    font-size: 18px;
+}
+.footer a{
     color: grey;
 }
