@@ -9,7 +9,7 @@ h2{
     font-family: "trebuchet ms", sans-serif;    
 }
 .intro{
-    background-image: url("../media/iopic.jpg");
+    /* background-image: url("../media/iopic.jpg"); */
     text-align: center;
 }
 .intro h1{
@@ -225,6 +225,9 @@ h2{
     background: black;
     padding-top: 26px;
 }
+.playground p{
+    color: #fff;
+}
 .position1{
     transition: all 2s ease-in-out;
     text-align: center;
@@ -324,7 +327,8 @@ h2{
 /* ISEF Carousel */
 
 .carousel1{
-    background: #534B62;
+    /* background: #534B62; */
+    color: #fff;
 }
 .carousel1 h2{
     margin-top: -50px;
@@ -390,4 +394,25 @@ h2{
 }
 .footer a{
     color: grey;
+}
+/* responsive */
+
+@media (min-width: 768px) (max-width: 768px){
+    .img1{
+        margin-right: 87px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    .heropicture{
+        float: right;
+    }
+}
+​
+@media (min-width: 992px) {
+    
+}
+​
+@media (min-width: 1200px) {
+    
 }
