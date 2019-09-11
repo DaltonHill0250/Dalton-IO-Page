@@ -83,7 +83,7 @@ h2{
     background: #000;
     text-align: center;
     border-bottom: #534B62 solid 5px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 .projectsh1 h2{
     margin-top: -92px;
