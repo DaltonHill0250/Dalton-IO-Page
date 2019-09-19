@@ -1,10 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #000;
 }
 h2{
     margin: 0;     
     color: #fff;
-    padding-top: 90px;
+    /* padding-top: 90px; */
     font-size: 52px;
     font-family: "trebuchet ms", sans-serif;    
 }
@@ -86,11 +89,19 @@ h2{
     /* margin-top: 60px; */
 }
 .projectsh1 h2{
-    /* margin-top: -92px; */
+    margin-top: 15px;
 }
 .projects{
+    color: #fff;
     background: black;
     padding-top: 26px;
+}
+.projects a{
+    text-decoration: none;
+    border: 5px;
+    background-color: rgb(19, 19, 75);
+    border-radius: 10%;
+    padding: 7px;
 }
 .projects img{
     width: 200px;
@@ -208,7 +219,7 @@ h2{
     border-bottom: #534B62 solid 5px;
 }
 .playgroundh1 h2{
-    margin-top: -92px;
+    margin-top: 20px;
 }
 .playground img{
     width: 200px;
@@ -224,6 +235,9 @@ h2{
 .playground{
     background: black;
     padding-top: 26px;
+}
+.playground h4{
+    color:#fff;
 }
 .playground p{
     color: #fff;
@@ -360,6 +374,9 @@ h2{
 .isefp{
     margin-right: 60px;
 }
+.isefp h2{
+    margin-top: 35px;
+}
 .isefp a{
     text-decoration: none;
     border: 5px;
@@ -379,6 +396,15 @@ h2{
 .footer{
     background: black;
     width: 100%;
+    margin-top: 30px;
+}
+.footer h2{
+    text-align: center;
+    font-size: 30px;
+}
+.footer p{
+    text-align: center; 
+    color: #fff;
 }
 .footer ul{
     list-style: none;
@@ -393,7 +419,10 @@ h2{
     font-size: 18px;
 }
 .footer a{
-    color: grey;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 28px;
 }
 /* responsive */
 
